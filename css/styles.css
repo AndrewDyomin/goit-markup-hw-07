@@ -19,18 +19,7 @@ body {
     --card-set-gap: 24px;
 }
 
-.container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
 h1, h1, h3, h4, h5, h6, p, ul {
     margin-top: 0;
@@ -395,28 +384,6 @@ img {
 }
 
 .advantages-list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-}
-
-.advantages-icon-box {
-    background-color: var(--cloud);
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 112px;
-}
-
-.advantages-icon {
-    width: 64px;
-    height: 64px;
-}
-
-.advantages-item:nth-child(n + 2) {
-    margin-left: 24px;
 }
 
 .advantages-item-title {
@@ -467,24 +434,7 @@ img {
     background-color: var(--cloud);
 }
 
-.team-list {
-    padding: 0;
-    margin-top: 72px;
-    list-style: none;
-    display: flex;
-}
 
-.team-item {
-    background-color: var(--white);
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.team-item:nth-child(n + 2) {
-    margin-left: 24px;
-}
 
 .name,
 .portfolio-list-title {

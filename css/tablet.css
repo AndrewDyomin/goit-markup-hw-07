@@ -1,0 +1,65 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .advantages-item {
+        display: block;
+        width: calc(50% - 24px);
+    }
+
+    .advantages-item:nth-child(2n) {
+        margin-left: 24px;
+    }
+
+
+    .advantages-icon-box {
+        background-color: var(--cloud);
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 112px;
+    }
+
+    .advantages-icon {
+        width: 64px;
+        height: 64px;
+    }
+
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    
+    .advantages-item:nth-child(n + 3) {
+        margin-top: 24px;
+    }
+
+    .product-container {
+        display: none;
+    }
+
+    .team-section {
+        padding: 96px 93px 104px 93px;
+    }
+
+    .team-item:nth-child(2n + 1) {
+        margin-left: auto;
+    }
+
+    .team-item:nth-child(2n) {
+        margin-right: auto;
+    }
+
+    .team-item:nth-child(2n + 2) {
+        margin-left: 24px;
+    }
+
+    .team-item:nth-child(n + 3) {
+        margin-top: 64px;
+    }
+}
