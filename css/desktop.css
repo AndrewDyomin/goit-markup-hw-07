@@ -18,6 +18,15 @@
         width: calc(25% - 24px);
     }
 
+    .advantages-icon-box {
+        background-color: var(--cloud);
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 112px;
+    }
+
     .advantages-item:nth-child(n + 2) {
         margin-left: 24px;
     }

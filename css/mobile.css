@@ -30,6 +30,15 @@
         width: 100%;
     }
 
+    .advantages-item-title {
+        margin-top: 8px;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+        text-align: center;
+    }
+
     .team-list {
         padding: 0;
         margin-top: 72px;

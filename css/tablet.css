@@ -14,17 +14,16 @@
 
 
     .advantages-icon-box {
-        background-color: var(--cloud);
-        border-radius: 4px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 112px;
+        display: none;
     }
 
     .advantages-icon {
         width: 64px;
         height: 64px;
+    }
+
+    .advantages-item-title {
+        text-align: left;
     }
 
     .team-list {
