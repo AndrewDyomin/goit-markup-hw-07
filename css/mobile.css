@@ -53,6 +53,10 @@
             0px 2px 1px rgba(46, 47, 66, 0.08);
         width: 264px;
     }
+
+    .customers-item {
+        width: calc((100% - 16px) / 2);
+    }
     
 /*}*/
 
@@ -77,5 +81,92 @@
 
     .team-item:nth-child(n + 2) {
         margin-top: 72px;
+    }
+
+    .menu-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 40px;
+        padding-top: 80px;
+        background-color: #fff;
+        transform: translateX(100%);
+        transition: transform 250ms var(--timing);
+    }
+
+    .menu-container.is-open {
+        transform: translateX(0);
+    }
+    .menu-toggle {
+        right: 40px;
+        top: 40px;
+    }
+
+    .menu-btn {
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        padding: 0;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+
+    .mobile-menu-list {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-bottom: auto;
+
+    }
+
+    .mobile-menu-link {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+    }
+
+    .mobile-menu-item:nth-child(n + 2),
+    .mobile-contacts-item:nth-child(n + 2) {
+        margin-top: 40px;
+    }
+
+    .mobile-contacts-list {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-top: 284px;
+    }
+
+    .mobile-contacts-link {
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--slate);
+    }
+
+    .accent {
+        font-size: 36px;
+            line-height: 1.11;
+            text-transform: capitalize;
+            color: var(--iris);
+    }
+
+    .mobile-menu-link:hover,
+    .mobile-menu-link:focus {
+        color: var(--ocean);
+    }
+
+    .mobile-social-list {
+        margin-top: 48px;
+        gap: 56px;
     }
 }
