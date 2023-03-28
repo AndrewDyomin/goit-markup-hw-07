@@ -1,17 +1,21 @@
 @media screen and (min-width: 1200px) {
 
     .section {
-        max-width: 1440px;
+        width: 100%;
         padding-top: 120px;
         padding-bottom: 120px;
     }
 
     .container {
-        width: 1158px;
+        max-width: 1440px;
+        padding-left: 156px;
+        padding-right: 156px;
     }
 
     .header-contacts-list {
         gap: 40px;
+        flex-wrap: nowrap;
+        flex-direction: row;
     }
 
     .hero-section {
@@ -48,6 +52,7 @@
 
     .team-list {
         gap: 0;
+        flex-wrap: nowrap;
     }
 
     .customers-list {
@@ -67,6 +72,7 @@
     .footer-section {
         display: flex;
         align-items: baseline;
+        flex-wrap: nowrap;
     }
 
     .footer-subscribe {

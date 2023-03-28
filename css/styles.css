@@ -371,7 +371,7 @@ img {
 }
 
 .product-item:nth-child(n + 2) {
-    margin-left: 24px;
+    margin-left: calc((100% - 1080px) / 2);
 }
 
 .team-section {
