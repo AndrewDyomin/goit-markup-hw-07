@@ -46,6 +46,7 @@
     }
 
     .advantages-item-title {
+        font-size: 20px;
         margin-top: 8px;
     }
 
@@ -58,7 +59,7 @@
     }
 
     .team-section {
-        padding: 120px 67px 120px 67px;
+        padding: 120px 0 120px 0;
     }
 
     .team-list {
@@ -86,9 +87,14 @@
         flex-wrap: nowrap;
     }
 
+    .footer-social-links {
+        margin-left: 120px;
+    }
+
     .footer-subscribe {
         margin-top: 0;
         margin-left: 80px;
+        margin-right: 0;
     }
 
     .footer-form {

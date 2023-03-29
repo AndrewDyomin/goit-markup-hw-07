@@ -7,9 +7,9 @@
     }
 
     .advantages-container {
-        width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
+        width: 768px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .header {
@@ -52,7 +52,7 @@
         border-radius: 2px;
         background-color: var(--ocean);
         left: 0;
-        bottom: -34px;
+        bottom: -38px;
     }
 
     .header-contacts {
@@ -140,6 +140,7 @@
     .footer-social-links {
         margin-top: 0;
         margin-left: 24px;
+        margin-right: 0;
     }
 
     .footer-subscribe {
@@ -168,13 +169,17 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .header-container {
-        width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
+        width: 768px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header-contacts-list {
+        gap: 4px;
     }
     
     .advantages-item:nth-child(n + 3) {
-        margin-top: 24px;
+        margin-top: 72px;
     }
 
     .product-container {
