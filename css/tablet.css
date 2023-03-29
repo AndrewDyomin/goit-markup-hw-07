@@ -1,12 +1,19 @@
 @media screen and (min-width: 768px) {
     .section {
-        width: 768px;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .container {
-        max-width: 736px;
+        width: 582px;
+    }
+
+    .advantages-container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header {
+        padding-bottom: 10px;
     }
 
     .header-list {
@@ -45,7 +52,7 @@
         border-radius: 2px;
         background-color: var(--ocean);
         left: 0;
-        bottom: -24px;
+        bottom: -34px;
     }
 
     .header-contacts {
@@ -85,7 +92,11 @@
 
     .advantages-item {
         display: block;
-        width: calc(50% - 24px);
+        width: calc((100% - 24px) / 2);
+    }
+
+    .advantages-item:nth-child(n+2) {
+        margin-top: 0;
     }
 
     .advantages-item:nth-child(2n) {
@@ -128,7 +139,7 @@
 
     .footer-social-links {
         margin-top: 0;
-        margin-left: 120px;
+        margin-left: 24px;
     }
 
     .footer-subscribe {
@@ -156,7 +167,11 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-
+    .header-container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     
     .advantages-item:nth-child(n + 3) {
         margin-top: 24px;

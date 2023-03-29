@@ -1,15 +1,22 @@
 @media screen and (min-width: 1200px) {
 
     .section {
-        width: 100%;
         padding-top: 120px;
         padding-bottom: 120px;
     }
 
     .container {
-        max-width: 1440px;
-        padding-left: 156px;
-        padding-right: 156px;
+        width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header {
+        padding-bottom: 24px;
+    }
+
+    .header-item-link.active::after {
+        bottom: -24px;
     }
 
     .header-contacts-list {
@@ -26,7 +33,7 @@
 
     .advantages-item {
         display: block;
-        width: calc(25% - 24px);
+        width: calc((100% - 72px) / 4);
     }
 
     .advantages-icon-box {
@@ -36,6 +43,10 @@
         justify-content: center;
         align-items: center;
         min-height: 112px;
+    }
+
+    .advantages-item-title {
+        margin-top: 8px;
     }
 
     .advantages-item:nth-child(n + 2) {
